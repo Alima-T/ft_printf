@@ -22,7 +22,7 @@ You have to implement the following conversions:
 
 • %% Prints a percent sign.
 
-# To run main uncomment rows
+# Befor run the test uncomment rows in main
 
 # Command to run:
 cc ft_printf.c ft_print_ch.c ft_print_hex_upper.c ft_print_int.c ft_print_ptr.c ft_print_str.c && ./a.out
