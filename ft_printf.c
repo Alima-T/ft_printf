@@ -66,6 +66,7 @@ int	ft_printf(const char *format, ...)
 }
 
 // # include <stdio.h>
+// # include <limits.h>
 
 // int main (void)
 // {
@@ -82,14 +83,3 @@ int	ft_printf(const char *format, ...)
 // 	printf ("The ct of chars in original printf is %d\n", ct);
 // 	return (0);
 // }
-
-// You have to implement the following conversions:
-// • %c Prints a single character.
-// • %s Prints a string (as defined by the common C convention).
-// • %p The void * pointer argument has to be printed in hexadecimal format.
-// • %d Prints a decimal (base 10) number.
-// • %i Prints an integer in base 10.
-// • %u Prints an unsigned decimal (base 10) number.
-// • %x Prints a number in hexadecimal (base 16) lowercase format.
-// • %X Prints a number in hexadecimal (base 16) uppercase format.
-// • %% Prints a percent sign.
